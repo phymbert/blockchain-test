@@ -1,0 +1,1 @@
+import java.util.*;class P{public static void main(String s[]){Scanner i=new Scanner(System.in);int a=i.nextInt(),b=i.nextInt(),c=i.nextInt(),d=i.nextInt();while (true) {i.nextInt();int x=c-a;int y=d-b;String e=(y>0?"N":y==0?"":"S")+(x>0?"W":x==0?"":"E");c+=x>0?-1:x==0?0:1;d+=y>0?-1:y==0?0:1;System.out.println(e);}}}

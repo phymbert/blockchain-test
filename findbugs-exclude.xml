@@ -1,0 +1,14 @@
+<FindBugsFilter>
+	<Match>
+		<!-- We are ok with date expose internal representation by returning reference to mutable object -->
+		<Bug code="EI" />
+	</Match>
+	<Match>
+		<!--  We are ok with date may expose internal representation by incorporating reference to mutable object -->
+		<Bug code="EI2" />
+	</Match>
+	<Match>
+		<!-- We want to catch runtime exception - need to be more granular -->
+		<Bug code="REC" />
+	</Match>
+</FindBugsFilter>

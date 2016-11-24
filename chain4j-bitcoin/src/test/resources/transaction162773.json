@@ -1,0 +1,38 @@
+{
+"network" : "BTC",
+"txid" : "6ca7ec7b1847f6bdbd737176050e6a08d66ccd55bb94ad24f4018024107a5827",
+"blockhash" : "0000000000071694daf735a6b5da101d77a04c7e6008c680e461f0025ba7b7af",
+"block_no" : 90000,
+"confirmations" : 350508,
+"time" : 1289061811,
+"version" : 1,
+"locktime" : 0,
+"sent_value" : "50.00000000",
+"fee" : "0.0",
+"inputs" : [
+  {
+    "input_no" : 0,
+    "address" : "coinbase",
+    "value" : "50.00000000",
+    "received_from" : null,
+    "script_asm" : "",
+    "script_hex" : null
+  }
+],
+"outputs" : [
+  {
+    "output_no" : 0,
+    "address" : "1NXX6ncGXVuNczS59mFGsZqefDU42CnJvg",
+    "value" : "50.00000000",
+    "type" : "pubkey",
+    "req_sigs" : 1,
+    "spent" : {
+      "txid" : "0e1b5688cf179cd9f7cbda1fac0090f6e684bbf8cd946660120197c3f3681809",
+      "input_no" : 0
+    },
+    "script_asm" : "043b640e983c9690a14c039a2037ecc3467b27a0dcd58f19d76c7bc118d09fec45adc5370a1c5bf8067ca9f5557a4cf885fdb0fe0dcc9c3a7137226106fbc779a5 OP_CHECKSIG",
+    "script_hex" : "41043b640e983c9690a14c039a2037ecc3467b27a0dcd58f19d76c7bc118d09fec45adc5370a1c5bf8067ca9f5557a4cf885fdb0fe0dcc9c3a7137226106fbc779a5ac"
+  }
+],
+"tx_hex" : "01000000010000000000000000000000000000000000000000000000000000000000000000ffffffff07046332151b014bffffffff0100f2052a010000004341043b640e983c9690a14c039a2037ecc3467b27a0dcd58f19d76c7bc118d09fec45adc5370a1c5bf8067ca9f5557a4cf885fdb0fe0dcc9c3a7137226106fbc779a5ac00000000"
+}
